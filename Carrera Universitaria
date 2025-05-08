@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int opcion;
+
+cout << " Que carrera deseas estudiar en  la universidad?  " <<endl;
+cout << " Elige el numero de la opcion que desees " <<endl;
+cout << " 1. Arquitectura " <<endl;
+cout << " 2. Ingenieria " <<endl;
+cout << " 3. Medicina " <<endl;
+cout << " 4. Derecho " <<endl;
+cout << " 5. Administracion  " <<endl;
+cin >> opcion;
+
+if ( opcion == 1){
+    cout << " Diseño y planificacion de edificios y esreucturas, gestion y supervision de construcciones " <<endl;
+}
+else if (opcion == 2) {
+    cout << " Diseñar, construir y desarrollar soluciones a problemas tecnico" <<endl;
+}
+else if ( opcion == 3){
+    cout << "Prevencion, diagnostico, tratamiento y cuidado de enfermedades o problemas del cuerpo " <<endl;
+}
+else if( opcion == 4){
+    cout << " Asesora, defiende y representa los intereses de los individuo " <<endl;
+}
+else{
+    cout << " Te dedicaras a dirigir una empresa " <<endl;
+}
+
+}
